@@ -1,0 +1,14 @@
+h4{
+    color: rgba(241, 14, 14, 0.952);
+}
+table,th,td{
+    border: 2px solid black;
+    padding: 20px;
+    color: rgb(14, 36, 26);
+    background-color: aquamarine;
+    border-collapse: collapse;
+    
+}
+th{
+    font-size: 10px;
+}

@@ -1,0 +1,110 @@
+
+<html>
+
+    <header>
+        <link rel="stylesheet" href="/styleforms.css">
+
+        <title>
+            CSSFormat
+        </title>
+       
+    </header>
+    <script src="javascriptts.js"></script>
+
+    <script>
+        
+    </script>
+    <body >
+        <h1 >Tuition Center</h1>
+        <div class="MainContent">
+            <form action="/actionPage.html" autocomplete="off">
+                <div class="Cont Name">
+                    <label for="username">User Name</label>
+                    <input type="text" id="username" name="username"  >
+                </div>
+               
+                <DIV class="Cont">
+                    <label for="password">Password</label>
+                    <input type="password" id="Coupon" name="password" size="6" >
+                    <label for="password">Re_enter Password</label>
+                    <input id="Coupon1" name="password" size="6">
+                    
+                </div>
+            <div class="Cont DropDown">
+                <label for="language">Programming Language</label>
+                <select name="language" id="Lang">
+                <option value="c++">c++</option>
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="sql">sql</option>
+                <option value="other">other</option>
+                </select>
+            
+           
+            <input type="text" name="lastname" id="lastname" value="other language " >
+        </div>
+           
+            <div class="Cont" >
+                <input type="radio" name="TotalAmount" value="paid" id="Ammount" class="Valuesof">
+                <label for="amountpaid">Amountpaid</label>
+                <input type="radio" name="TotalAmount" value="Nopaid" id="Ammount2"  class="Valuesof">
+                <label for="Nopaid" >Notpaid</label>
+            </div >
+        
+            <div class="Cont emailID">
+                <label for="emailAddress" >Email Address</label>
+                <input type="email" name="emailAddress" id="email"  >
+            </div>
+            <div class="Cont MobileNo">
+                <label for="number1">MobileNumber</label>
+                <input type="number" name="number1" id="mobile" >
+            </div>
+            <div class="DOB Cont">
+                <label for="date">Date of Joining</label>
+                <input type="date" id="DOB" name="date">
+            </div>
+            <div class="CheckSMS Cont" >
+                <label for="check">SMS Alert</label>
+                <input type="checkbox" name="check" value="NeedAlert" id="Alert" style="width:20px" >
+            </div>
+                <div class="Cont Submitt">
+                    <label for ="about" ></label>
+                    <button type="button" onclick="OnCLickthat()">Add</button>
+                    <button type="reset" >reset</button>
+                </div>
+            <div>
+              
+            </div>
+               
+               
+            </form>
+
+            <table>
+                <tr>
+                    <th style="width: 220px; font-size:60PX;">
+                        Details
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h1 id="input1">Username</h1>
+                        <h1 id="input2">Password</h1>
+                        <h1 id="input3">Programing Language</h1>
+                        <h1 id="input3.1">Others Language</h1>
+                        <h1 id="input4">Amount details</h1>
+                        <h1 id="input5">email Address</h1>
+                        <h1 id="input6">MobileNumber</h1>
+                        <h1 id="input7">Date Of Joining</h1>
+                        <h1 id="input8">OnSMSAlert</h1>
+                    </th>
+                  
+
+                </tr>
+
+               
+            </table>
+        </div>
+    </body>
+   
+    
+</html>

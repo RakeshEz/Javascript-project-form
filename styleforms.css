@@ -1,0 +1,74 @@
+h1{
+    border: 2px solid rgb(245, 230, 230);  
+    width: 70%;
+    height: 70px;
+    border-radius: 12px;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 18px;
+    margin: auto;
+    background-color: purple;
+    color: aliceblue;
+
+}
+.MainContent{
+    color: purple;
+    border: 2px solid purple;
+    padding: 12px;
+    border-radius: 40px;
+    width: 70%;
+    height: 1900px;
+    justify-content: center;
+    text-align: left;
+    font-size: 32px;
+    margin: auto;
+    background-color: aliceblue;
+    outline: 20px solid lightblue;
+    padding-top: 120px;
+    
+}
+
+body{
+    background-color: aqua;
+}
+.Cont{
+    margin-top: 30px;
+}
+input{
+    margin-left: 20px;
+    height:35px;
+    width: 20%;
+    
+}
+
+button{
+    height:35px;
+    width: 20%;
+}
+label{
+    
+    width: 500px;
+    display: inline-block;
+}
+form{
+    
+    border-radius: 20px;
+    padding: 12px;
+}
+input{
+    color: purple;
+    font-size: 20px;
+    font-style: italic;
+    background-color: pink;
+    width: 30%;
+}
+table{
+    border: 2px solid purple;
+    border-radius: 20PX;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    padding: 20PX;
+
+}
